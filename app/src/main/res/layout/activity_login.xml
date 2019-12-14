@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/gradient"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:id="@+id/lgn_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:orientation="vertical"
+        android:paddingLeft="24dp"
+        android:paddingTop="56dp"
+        android:paddingRight="24dp">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="100pt"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10pt"
+            app:srcCompat="@drawable/logo"
+            android:contentDescription="TODO" />
+
+        <EditText
+            android:id="@+id/lgn_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10pt"
+            android:layout_marginTop="10pt"
+            android:layout_marginRight="10pt"
+            android:drawableStart="@drawable/ic_person"
+            android:drawablePadding="5pt"
+            android:ems="10"
+            android:foregroundTint="@color/colorAccent"
+            android:hint="@string/emailHint"
+            android:importantForAutofill="no"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorAccent"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/lgn_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10pt"
+            android:layout_marginTop="15pt"
+            android:layout_marginRight="10pt"
+            android:drawableStart="@drawable/ic_pass"
+            android:drawablePadding="5pt"
+            android:ems="10"
+            android:hint="@string/passwordHint"
+            android:importantForAutofill="no"
+            android:inputType="textPassword"
+            android:textColor="@color/colorAccent"
+            android:foregroundTint="@color/colorAccent"
+            android:textColorHint="@color/colorAccent"/>
+
+        <Button
+            android:id="@+id/lgn_btn"
+            style='"@style/Widget.MaterialComponents.Button"'
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25pt"
+            android:layout_marginTop="15pt"
+
+            android:layout_marginRight="25pt"
+            android:text="@string/loginTitle" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5pt"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/txt_register"
+            style="@android:style/Widget.Material.Light.TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5pt"
+            android:gravity="center"
+            android:shadowColor="#000000"
+            android:text="@string/btn_register_here"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="#FFC107"
+            android:textColorLink="#F3F0F0"
+            android:textSize="18sp"
+            />
+
+
+
+    </LinearLayout>
+</ScrollView>

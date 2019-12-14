@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">DHWallet</string>
+    <string name="loginTitle">Login</string>
+    <string name="emailHint">Email Id</string>
+    <string name="btnLogin">Login</string>
+    <string name="passwordHint">Password</string>
+    <string name="btn_register_here">Not Member yet, Register Here</string>
+    <string name="nameHint">John Smith</string>
+    <string name="mobHint">Mobile Number</string>
+    <string name="renterpassHint">Re-enter Password</string>
+    <string name="btn_login_here">Already registered. Login Here</string>
+    <string name="regTitle">Register</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Shrikant Pardhi</string>
+    <string name="nav_header_subtitle">dynast.dev@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Log Out</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Open FD Account</string>
+    <string name="menu_slideshow">View Payments</string>
+    <string name="menu_tools">View Profile</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="fragment_home_text1">This is demo for information available to user</string>
+</resources>
